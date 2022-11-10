@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: testrunner_package.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 108.428 s <<< FAILURE! - in testrunner_package.TestRunner
+Test login functionality with valid credentials #1(Smoke Testing of nopCommerce Login functionality)  Time elapsed: 78.856 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.88)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'SWWAPNILL', ip: '192.168.43.165', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [33d4a14e8b14d93fe351bc626ec5ef5f, getPageSource {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.88, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\Lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51389/devtoo..., se:cdpVersion: 107.0.5304.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 33d4a14e8b14d93fe351bc626ec5ef5f
+
+Test login functionality with valid credentials #3(Smoke Testing of nopCommerce Login functionality)  Time elapsed: 6.759 s  <<< FAILURE!
+java.lang.AssertionError
+
